@@ -1,0 +1,3 @@
+pip install imutils
+
+pip install pillow
