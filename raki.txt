@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>website</title>
+    <link rel="stylesheet" href="./htmlcssgrid.css" type="text/css">
+</head>
+<body>
+    <h1>My website</h1>
+    <h4>About website</h4>
+    <div class="topnav">
+        <select><option>course</option><option>Python</option><option>Java</option></select>      
+        <a id="aitem1" href="">welcome</a>
+        <button>sign in</button>
+    </div>
+    <div class="grid-container">
+        <div id="item2">left section</div>
+        <div id="item2">right section</div>
+    </div>
+    <footer>
+        <a href="">Created by</a>
+        <a href="mailto:saten217@gmail.com">Contact us</a>
+    </footer>
+
+</body>
+</html>

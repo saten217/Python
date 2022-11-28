@@ -1,0 +1,83 @@
+h1{
+    background-color: black;
+    color:azure;
+    text-align: center;
+    height:50px;
+    margin:0;
+}
+
+h4{
+    background-color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+    height:50px;
+    margin:0;
+    color:white;
+    padding-top: 15px;
+}
+
+/* div{
+    float: right;
+} */
+
+footer{
+    background-color: black;
+    font-size: large;
+    color:azure;
+    text-align: center;
+    height:50px;
+    padding-top: 17px;
+    color:white;
+}
+
+footer a{
+    color:white;
+    size: 10px;
+    padding:20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:menu1 menu1;
+    gap: 5px;
+    background-color: #a6e416;
+    padding: 5px;}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;}
+
+    .item2 { grid-area: menu; }
+    
+    .topnav {
+        overflow:hidden;
+        background-color: black;
+        height:max-content;
+        flex: content;
+      }
+      
+      .topnav button {
+        float: right;
+        color: #501881;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 10px;
+        border-radius: 5px;
+        border-color: blue;
+        font-size:10px;
+      }
+      .topnav select{
+        size:20px;
+      }
+      
+      .topnav button:hover {
+        background-color: rgb(42, 176, 82);
+        color: black;
+      }
+      .topnav a{
+        color:white;
+        size:20px;
+      }
+      button{
+        size:10px;
+      }
